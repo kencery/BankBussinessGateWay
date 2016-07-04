@@ -3,7 +3,14 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
 	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
 
+	<!--项目配置文件名称-->
 	<display-name>Spring MVC Application</display-name>
+
+
+	<welcome-file-list>
+		<welcome-file>/</welcome-file>
+	</welcome-file-list>
+
 
     <servlet>
 		<servlet-name>mvc-dispatcher</servlet-name>
